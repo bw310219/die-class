@@ -2,6 +2,7 @@
 #define DIE_H
 #include <iostream>
 #include <fstream>
+#include <time.h>
 using namespace std;
 class Die {
 public:
@@ -47,3 +48,4 @@ private:
 int faceValue; ///the face value of the die
 int numSides; ///number of faces of the die
 };
+#endif

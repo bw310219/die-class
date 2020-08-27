@@ -40,3 +40,4 @@ return faceValue;
 ostream& operator <<(ostream &out, const Die &d){
 out << d.faceValue;
 return out;
+}
